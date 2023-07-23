@@ -1,0 +1,187 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+<div id="title">Happy Birthday Lenni!</div>
+<div id="top">
+  <div class="r col1 row1"></div>
+  <div class="r col2 row1"></div>
+  <div class="r col3 row1"></div>
+  <div class="r col1 row2"></div>
+  <div class="r col2 row2"></div>
+  <div class="r col3 row2"></div>
+  <div class="r col1 row3"></div>
+  <div class="r col2 row3"></div>
+  <div class="r col3 row3"></div>
+
+  <div class="b col1 row1"></div>
+  <div class="b col2 row1"></div>
+  <div class="b col3 row1"></div>
+  <div class="b col1 row2"></div>
+  <div class="b col2 row2"></div>
+  <div class="b col3 row2"></div>
+  <div class="b col1 row3"></div>
+  <div class="b col2 row3"></div>
+  <div class="b col3 row3"></div>
+
+  <div class="g col1 row1"></div>
+  <div class="g col2 row1"></div>
+  <div class="g col3 row1"></div>
+  <div class="g col1 row2"></div>
+  <div class="g col2 row2"></div>
+  <div class="g col3 row2"></div>
+  <div class="g col1 row3"></div>
+  <div class="g col2 row3"></div>
+  <div class="g col3 row3"></div>
+
+  <div class="o col1 row1"></div>
+  <div class="o col2 row1"></div>
+  <div class="o col3 row1"></div>
+  <div class="o col1 row2"></div>
+  <div class="o col2 row2"></div>
+  <div class="o col3 row2"></div>
+  <div class="o col1 row3"></div>
+  <div class="o col2 row3"></div>
+  <div class="o col3 row3"></div>
+
+  <div class="y col1 row1"></div>
+  <div class="y col2 row1"></div>
+  <div class="y col3 row1"></div>
+  <div class="y col1 row2"></div>
+  <div class="y col2 row2"></div>
+  <div class="y col3 row2"></div>
+  <div class="y col1 row3"></div>
+  <div class="y col2 row3"></div>
+  <div class="y col3 row3"></div>
+
+  <div class="w col1 row1"></div>
+  <div class="w col2 row1"></div>
+  <div class="w col3 row1"></div>
+  <div class="w col1 row2"></div>
+  <div class="w col2 row2"></div>
+  <div class="w col3 row2"></div>
+  <div class="w col1 row3"></div>
+  <div class="w col2 row3"></div>
+  <div class="w col3 row3"></div>
+</div>
+<style>
+#top {
+  position: relative;
+  width: 310px;
+  height: 310px;
+  background-color: transparent;
+  transform-style: preserve-3d;
+}
+
+#title {
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 50px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-style: italic;
+}
+
+body {
+  padding: 0; margin: 0;
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#top > div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 90px; height: 90px;
+  border-radius: 10px;
+}
+
+#top > .r { background-color: #b71234; }
+#top > .b { background-color: #0046ab; }
+#top > .g { background-color: #009b48; ; }
+#top > .o { background-color: #ff5800; }
+#top > .y { background-color: #ffd500; }
+#top > .w { background-color: #ffffff; }
+
+.r.col1.row1 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(1, 0, 0,   0deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d(   0px,   0px, 150px); }
+.r.col2.row1 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(1, 0, 0,   0deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d( 100px,   0px, 150px); }
+.r.col3.row1 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(1, 0, 0,   0deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d(-100px,   0px, 150px); }
+.r.col1.row2 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(1, 0, 0,   0deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d(   0px, 100px, 150px); }
+.r.col2.row2 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(1, 0, 0,   0deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d( 100px, 100px, 150px); }
+.r.col3.row2 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(1, 0, 0,   0deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d(-100px, 100px, 150px); }
+.r.col1.row3 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(1, 0, 0,   0deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d(   0px,-100px, 150px); }
+.r.col2.row3 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(1, 0, 0,   0deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d( 100px,-100px, 150px); }
+.r.col3.row3 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(1, 0, 0,   0deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d(-100px,-100px, 150px); }
+
+.b.col1.row1 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(1, 0, 0,  90deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d(   0px,   0px, 150px); }
+.b.col2.row1 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(1, 0, 0,  90deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d( 100px,   0px, 150px); }
+.b.col3.row1 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(1, 0, 0,  90deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d(-100px,   0px, 150px); }
+.b.col1.row2 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(1, 0, 0,  90deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d(   0px, 100px, 150px); }
+.b.col2.row2 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(1, 0, 0,  90deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d( 100px, 100px, 150px); }
+.b.col3.row2 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(1, 0, 0,  90deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d(-100px, 100px, 150px); }
+.b.col1.row3 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(1, 0, 0,  90deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d(   0px,-100px, 150px); }
+.b.col2.row3 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(1, 0, 0,  90deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d( 100px,-100px, 150px); }
+.b.col3.row3 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(1, 0, 0,  90deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d(-100px,-100px, 150px); }
+
+.g.col1.row1 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(1, 0, 0, 180deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d(   0px,   0px, 150px); }
+.g.col2.row1 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(1, 0, 0, 180deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d( 100px,   0px, 150px); }
+.g.col3.row1 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(1, 0, 0, 180deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d(-100px,   0px, 150px); }
+.g.col1.row2 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(1, 0, 0, 180deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d(   0px, 100px, 150px); }
+.g.col2.row2 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(1, 0, 0, 180deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d( 100px, 100px, 150px); }
+.g.col3.row2 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(1, 0, 0, 180deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d(-100px, 100px, 150px); }
+.g.col1.row3 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(1, 0, 0, 180deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d(   0px,-100px, 150px); }
+.g.col2.row3 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(1, 0, 0, 180deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d( 100px,-100px, 150px); }
+.g.col3.row3 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(1, 0, 0, 180deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d(-100px,-100px, 150px); }
+
+.o.col1.row1 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(1, 0, 0, 270deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d(   0px,   0px, 150px); }
+.o.col2.row1 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(1, 0, 0, 270deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d( 100px,   0px, 150px); }
+.o.col3.row1 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(1, 0, 0, 270deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d(-100px,   0px, 150px); }
+.o.col1.row2 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(1, 0, 0, 270deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d(   0px, 100px, 150px); }
+.o.col2.row2 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(1, 0, 0, 270deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d( 100px, 100px, 150px); }
+.o.col3.row2 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(1, 0, 0, 270deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d(-100px, 100px, 150px); }
+.o.col1.row3 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(1, 0, 0, 270deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d(   0px,-100px, 150px); }
+.o.col2.row3 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(1, 0, 0, 270deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d( 100px,-100px, 150px); }
+.o.col3.row3 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(1, 0, 0, 270deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d(-100px,-100px, 150px); }
+
+.y.col1.row1 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(0, 1, 0,  90deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d(   0px,   0px, 150px); }
+.y.col2.row1 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(0, 1, 0,  90deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d( 100px,   0px, 150px); }
+.y.col3.row1 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(0, 1, 0,  90deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d(-100px,   0px, 150px); }
+.y.col1.row2 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(0, 1, 0,  90deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d(   0px, 100px, 150px); }
+.y.col2.row2 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(0, 1, 0,  90deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d( 100px, 100px, 150px); }
+.y.col3.row2 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(0, 1, 0,  90deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d(-100px, 100px, 150px); }
+.y.col1.row3 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(0, 1, 0,  90deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d(   0px,-100px, 150px); }
+.y.col2.row3 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(0, 1, 0,  90deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d( 100px,-100px, 150px); }
+.y.col3.row3 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(0, 1, 0,  90deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d(-100px,-100px, 150px); }
+
+.w.col1.row1 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(0, 1, 0, 270deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d(   0px,   0px, 150px); }
+.w.col2.row1 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(0, 1, 0, 270deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d( 100px,   0px, 150px); }
+.w.col3.row1 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(0, 1, 0, 270deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d(-100px,   0px, 150px); }
+.w.col1.row2 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(0, 1, 0, 270deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d(   0px, 100px, 150px); }
+.w.col2.row2 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(0, 1, 0, 270deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d( 100px, 100px, 150px); }
+.w.col3.row2 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(0, 1, 0, 270deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d(-100px, 100px, 150px); }
+.w.col1.row3 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(0, 1, 0, 270deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d(   0px,-100px, 150px); }
+.w.col2.row3 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(0, 1, 0, 270deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d( 100px,-100px, 150px); }
+.w.col3.row3 { transform: perspective(none) translate3d(100px, 100px, -150px) rotate3d(0, 1, 0, 270deg) rotate3d(0, 1, 0,   0deg) rotate3d(1, 0, 0,   0deg) translate3d(-100px,-100px, 150px); }
+
+@keyframes rot {
+  from { transform: perspective(none) rotate3d(0.8, 0.3, 0.5,  73deg) rotate3d(1, 1, 0,   0deg) }
+  to   { transform: perspective(none) rotate3d(0.8, 0.3, 0.5,  73deg) rotate3d(1, 1, 0, 360deg) }
+}
+
+#top {
+  transform-origin: 150px 150px -150px;
+  animation-name: rot;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+</style>
+  </body>
+</html>
